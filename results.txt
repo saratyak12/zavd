@@ -1,0 +1,49 @@
+sarat@KASANETETO MINGW64 ~/OneDrive/Desktop/zavdannya/zavd (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+sarat@KASANETETO MINGW64 ~/OneDrive/Desktop/zavdannya/zavd (main)
+$ git branch
+* main
+  new-branch
+
+sarat@KASANETETO MINGW64 ~/OneDrive/Desktop/zavdannya/zavd (main)
+$ git log
+commit 0e6879a52a3fe2fb9b1f27b82b7ce79bdba63221 (HEAD -> main, origin/main, origin/HEAD)
+Author: saratyak12 <saratyak12@gmail.com>
+Date:   Fri Oct 23 10:19:24 2026 +0300
+
+    Add new file 'newse' with initial content
+
+commit 72133d64edd37009c1949b2a69906ddf726c40dc
+Merge: bf5f977 9b0b4c1
+Author: saratyak12 <saratyak12@gmail.com>
+Date:   Fri Oct 23 10:18:21 2026 +0300
+
+    fixed conflict
+
+commit bf5f977d99b44484f7beb1ff87c27b2857adffb1
+Author: saratyak12 <saratyak12@gmail.com>
+Date:   Fri Oct 23 10:17:30 2026 +0300
+
+    added more text to file
+
+commit 9b0b4c1a3ac1cf43338c778e17c6c78fb9849af9 (origin/new-branch, new-branch)
+Author: saratyak12 <saratyak12@gmail.com>
+Date:   Fri Oct 23 10:14:00 2026 +0300
+
+    added more text about intita
+
+commit 52e348145b00a84516b0ca16c77937a3541025bd
+
+sarat@KASANETETO MINGW64 ~/OneDrive/Desktop/zavdannya/zavd (main)
+$ git log --merges
+commit 72133d64edd37009c1949b2a69906ddf726c40dc
+Merge: bf5f977 9b0b4c1
+Author: saratyak12 <saratyak12@gmail.com>
+Date:   Fri Oct 23 10:18:21 2026 +0300
+
+    fixed conflict
